@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Print Styles for RTGS Advice */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  .printable-advice, .printable-advice * {
+    visibility: visible;
+  }
+
+  .printable-advice {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 24px;
+    background: white !important;
+    color: black !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  header, aside, button, nav {
+    display: none !important;
+  }
+}

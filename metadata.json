@@ -1,0 +1,6 @@
+{
+  "name": "GBA Corporation - DC Bill Management System",
+  "description": "Comprehensive Detailed Contingent (DC) Bill Management System for Greater Bengaluru Authority with multi-level RBAC, DDO budget tracking, and RTGS advice generation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
